@@ -53,7 +53,6 @@ opt_in_rules:
   - vertical_whitespace_opening_braces
   - yoda_condition
 
-
 custom_rules:
   array_constructor:
     name: "Array/Dictionary initializer"
@@ -94,6 +93,8 @@ private_over_fileprivate:
 trailing_whitespace:
   ignores_empty_lines: false
   ignores_comments: true
+
+empty_count: warning
 
 vertical_whitespace:
   max_empty_lines: 2
