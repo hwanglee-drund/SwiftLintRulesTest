@@ -83,6 +83,7 @@ identifier_name:
     - z
     - vc
     - nav
+    - vm
 
 line_length:
   ignores_urls: true
