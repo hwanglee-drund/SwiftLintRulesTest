@@ -64,7 +64,7 @@ custom_rules:
 force_cast: warning
 force_try: warning
 function_body_length:
-    warning: 60
+  warning: 60
 
 legacy_hashing: error
 
@@ -72,6 +72,9 @@ identifier_name:
   min_length:
     warning: 4
     error: 1
+  max_length:
+    warning: 40
+    error: 60
   excluded:
     - i
     - id
