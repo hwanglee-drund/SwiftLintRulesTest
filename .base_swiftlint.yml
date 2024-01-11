@@ -68,8 +68,11 @@ function_body_length:
 
 legacy_hashing: error
 
-identifier_name:
-  min_length: 4
+identifier_name: # Variable name
+  min_length: 1
+  max_length:
+      warning: 60
+      error: 80
   excluded:
     - i
     - id
@@ -79,6 +82,7 @@ identifier_name:
     - vc
     - nav
     - vm
+    - url
 
 line_length:
   ignores_urls: true
