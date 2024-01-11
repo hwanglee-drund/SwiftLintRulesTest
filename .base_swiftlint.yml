@@ -71,8 +71,8 @@ legacy_hashing: error
 identifier_name: # Variable name
   min_length: 1
   max_length:
-      warning: 60
-      error: 80
+    warning: 60
+    error: 80
   excluded:
     - i
     - id
