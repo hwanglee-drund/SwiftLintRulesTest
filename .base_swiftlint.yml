@@ -69,12 +69,6 @@ function_body_length:
 legacy_hashing: error
 
 identifier_name:
-  min_length:
-    warning: 4
-    error: 1
-  max_length:
-    warning: 40
-    error: 60
   excluded:
     - i
     - id
