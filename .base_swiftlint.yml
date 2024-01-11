@@ -69,6 +69,7 @@ function_body_length:
 legacy_hashing: error
 
 identifier_name:
+  min_length: 4
   excluded:
     - i
     - id
